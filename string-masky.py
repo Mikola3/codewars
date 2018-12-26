@@ -15,11 +15,8 @@ def maskify(cc):
             array_new[i]="#"
         return ''.join([str(x) for x in array_new])
 
-#print(maskify("12345"))
-
 print("---Best-Solution---")
 '''
 def maskify(cc):
     return "#"*(len(cc)-4) + cc[-4:]
 '''
-
