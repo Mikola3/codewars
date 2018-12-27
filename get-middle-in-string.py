@@ -8,7 +8,7 @@ def get_middle(s):
         middle = int(len(arr)/2)
         new_arr.extend((arr[middle-1], arr[middle]))
         return ''.join(new_arr)
-    elif len(arr) % 2 == 0:
+    else:
         middle = len(s)/2
         middle_modify = int(math.ceil(middle))
         return str(arr[middle_modify-1])
