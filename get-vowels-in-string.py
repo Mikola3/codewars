@@ -12,3 +12,9 @@ print(getCount("kkk3"))
 5
 0
 '''
+
+print("---Beteer-Solution---")
+'''
+def getCount(inputStr):
+    return sum(1 for letter in inputStr if letter in "aeiou")
+'''
