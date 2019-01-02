@@ -17,3 +17,10 @@ def unique_in_order(iterable):
 
 print(unique_in_order('AAAABBBCCDAABBB'))
 #print(unique_in_order([1,2,2,3,3]))
+
+print("---Beteer-Solution---")
+'''
+def find_uniq(arr):
+    a, b = set(arr)
+    return a if arr.count(a) == 1 else b
+'''
