@@ -6,14 +6,11 @@ def even(numbers, bit):
 
 def iq_test(numbers):
     a = 0
-    b = 0
     array = numbers.split()
     for i in array[:3]:
         if int(i) % 2 == 1:
             a += 1
-        else:
-            b += 1
-    if a > b:
+    if a > 1:
         return even(numbers, 0)
     else:
         return even(numbers, 1)
