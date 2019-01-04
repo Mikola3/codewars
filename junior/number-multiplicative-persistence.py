@@ -32,6 +32,18 @@ def persistence(num):
 
 print("----Better-Solusion------")
 '''
+def persistence(n):
+    n = str(n)
+    count = 0
+    while len(n) > 1:
+        p = 1
+        for i in n:
+            p *= int(i)
+        n = str(p)
+        count += 1
+    return count
+'''
+'''
 import operator
 def persistence(n):
     i = 0
@@ -50,16 +62,4 @@ def persistence(n):
         nums = [int(x) for x in str(newNum)]
         sist = sist + 1
     return sist
-'''
-'''
-def persistence(n):
-    n = str(n)
-    count = 0
-    while len(n) > 1:
-        p = 1
-        for i in n:
-            p *= int(i)
-        n = str(p)
-        count += 1
-    return count
 '''
