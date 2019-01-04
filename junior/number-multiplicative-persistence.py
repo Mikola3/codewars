@@ -52,6 +52,9 @@ def persistence(n):
         i+=1
     return i
 #print(operator.mul(3,9)) == 27
+#reduce (function, iterable [, initializer])
+#functools.reduce(operator.mul, [1, 2, 3], 1) == 6
+#functools.reduce(operator.mul, [], 1) == 1
 '''
 '''
 def persistence(n):
