@@ -16,6 +16,14 @@ def first_non_repeating_letter(string):
 print("---Beteer-Solution---")
 '''
 def first_non_repeating_letter(string):
+    s = string.lower()
+    for i in string:
+        if s.count(i.lower()) == 1:
+            return i
+    return ''
+'''
+'''
+def first_non_repeating_letter(string):
     string_lower = string.lower()
     for i, letter in enumerate(string_lower):
         if string_lower.count(letter) == 1:
