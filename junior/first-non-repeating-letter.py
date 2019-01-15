@@ -24,6 +24,16 @@ def first_non_repeating_letter(string):
     return ""
 '''
 '''
+mas = ["eat","sleep","repeat"]
+for a, b in enumerate(mas):
+    print(a, b)
+
+Output:
+0 eat
+1 sleep
+2 repeat
+'''
+'''
 from collections import Counter
 def first_non_repeating_letter(string):
     cnt = Counter(string.lower())
